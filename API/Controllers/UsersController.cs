@@ -7,7 +7,7 @@ using SQLitePCL;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")] // /api/users
+    [Route("api/[controller]")] // GET /api/users
 
     public class UsersController : ControllerBase
     {
